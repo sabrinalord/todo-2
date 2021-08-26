@@ -40,7 +40,11 @@ button {
 	margin: 0.5em;
 	cursor:pointer;
 }
+button:after{
+	content:"+";
+}
 
+<<<<<<< HEAD
 button:hover{
 	background:#2d5b85;
 }
@@ -60,6 +64,16 @@ list-style:none;
     display: flex;
     align-items: center;
 	position:relative;
+=======
+button:after {
+    content: "+";
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+>>>>>>> e36240e9dcf6240d65eaeadaa8b43d260e20eac4
 }
 
 .todo-item p{
