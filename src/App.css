@@ -64,9 +64,6 @@ list-style:none;
     align-items: center;
 	position:relative; }
 
-button:after {
-    content: "+";
-}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
