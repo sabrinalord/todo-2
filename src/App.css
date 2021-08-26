@@ -40,9 +40,7 @@ button {
 	margin: 0.5em;
 	cursor:pointer;
 }
-button:after{
-	content:"+";
-}
+
 
 button:hover{
 	background:#2d5b85;
